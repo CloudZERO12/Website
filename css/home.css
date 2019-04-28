@@ -1,0 +1,74 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: Bebas Neue;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: contain;
+	height: 20vh;
+}
+
+.title {
+	height: 20vh;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	grid-gap: 2px;
+	padding: 10px;	
+	color: white;
+	border: 3px white solid;
+	font-family: Bebas Neue;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2,1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 70vh;
+	grid-gap: 10px;
+}
+
+.image {
+	background-image: url(../images/home.jpg);
+	background-position: center;
+	background-size: contain;
+	height: 70vh;
+	border: 3px white solid;
+}
+
+.description {
+	font-size: 65px;
+	font-family: Bebas Neue;
+	text-align: center;
+	color: white;
+	height: 70vh;
+	border: 3px white solid;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-position: center;
+	background-size: cover;
+}

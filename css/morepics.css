@@ -1,0 +1,84 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+	height: 50vh;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+	height: 40vh;
+}
+
+.front {
+	background-image: url(../images/front.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.back {
+	background-image: url(../images/back.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.left {
+	background-image: url(../images/left.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.right {
+	background-image: url(../images/right.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.bottom {
+	background-image: url(../images/bottom.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.top {
+	background-image: url(../images/top.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.goback {
+	margin-left: auto;
+	margin-right: auto;
+	height: 2vh;
+	border: 3px white solid;
+	width: 20%;
+	color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+}
+
+.text {
+	color: white;
+	font-family: Bebas Neue;
+	text-align: center;
+	font-size: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-position: center;
+	background-size: cover;
+}

@@ -1,0 +1,44 @@
+.container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+}
+
+.image {
+	background-image: url(../images/readmore.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.description {
+	border: 3px white solid;
+	height: 100vh;
+	font-family: Bebas Neue;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.back {
+	margin-left: auto;
+	margin-right: auto;
+	height: 2vh;
+	border: 3px white solid;
+	width: 20%;
+	color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-position: center;
+	background-size: cover;
+}
